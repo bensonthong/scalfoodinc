@@ -1,3 +1,7 @@
-:root{
-    
+:root{   
+    font-family:'Roboto';
+}
+
+.navbar {
+  background-color: rgb(226, 179, 49)
 }
