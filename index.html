@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Southern California Food Inc</title>
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/slideshow.css" />
   </head>
   <body>
     <!-- header -->
@@ -20,7 +21,37 @@
       </nav>
       <a href="#" class="cta"><button>Contact</button></a>
     </header>
+    <!-- end of header -->
+    <!-- slideshow -->
+  <div class="slidershow middle">
+    <div class="slides">
+      <input type="radio" name="r" id="r1" checked />
+      <input type="radio" name="r" id="r2" />
+      <input type="radio" name="r" id="r3" />
 
+      <div class="slide i1">
+        <img src="images/1.jpg" alt="pic1" />
+      </div>
+      <div class="slide i2">
+        <img src="images/2.jpg" alt="pic2" />
+      </div>
+      <div class="slide i3">
+        <img src="images/3.jpg" alt="pic3" />
+      </div>
+
+      <div class="navigation">
+        <label for="r1" class="bar"></label>
+        <label for="r2" class="bar"></label>
+        <label for="r3" class="bar"></label>
+      </div>
+    </div>
+  </div>
+    <!-- end of slideshow -->
     <main></main>
+
+    <footer>
+      <p>Copyright 2023 Southern California Food Inc. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
+
